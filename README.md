@@ -1,6 +1,6 @@
-# Markdown Preview Enhanced
+# Markdown Preview Right Click
 
-A VSCode extension that provides a side-by-side Markdown preview using Chrome's rendering engine.
+A VSCode extension that provides a side-by-side Markdown preview with right-click context menu integration using Chrome's rendering engine.
 
 ## Features
 

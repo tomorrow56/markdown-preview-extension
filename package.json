@@ -1,7 +1,7 @@
 {
-  "name": "markdown-preview-enhanced",
-  "displayName": "Markdown Preview Enhanced",
-  "description": "A VSCode extension that shows Markdown preview with Chrome's rendering engine",
+  "name": "markdown-preview-right-click",
+  "displayName": "Markdown Preview Right Click",
+  "description": "A VSCode extension that provides Markdown preview with right-click context menu integration using Chrome's rendering engine",
   "version": "0.1.0",
   "publisher": "tomorrow56",
   "engines": {
@@ -18,6 +18,8 @@
   "keywords": [
     "markdown",
     "preview",
+    "right-click",
+    "context-menu",
     "chrome",
     "puppeteer"
   ],
@@ -33,28 +35,28 @@
   "contributes": {
     "commands": [
       {
-        "command": "markdown-preview-enhanced.showPreview",
+        "command": "markdown-preview-right-click.showPreview",
         "title": "Markdown: プレビューを横に表示"
       }
     ],
     "menus": {
       "editor/title": [
         {
-          "command": "markdown-preview-enhanced.showPreview",
+          "command": "markdown-preview-right-click.showPreview",
           "when": "editorLangId == markdown",
           "group": "navigation"
         }
       ],
       "editor/context": [
         {
-          "command": "markdown-preview-enhanced.showPreview",
+          "command": "markdown-preview-right-click.showPreview",
           "when": "editorLangId == markdown",
           "group": "navigation"
         }
       ],
       "explorer/context": [
         {
-          "command": "markdown-preview-enhanced.showPreview",
+          "command": "markdown-preview-right-click.showPreview",
           "when": "resourceLangId == markdown",
           "group": "navigation"
         }

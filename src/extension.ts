@@ -114,7 +114,7 @@ const markdownToHtml = async (markdown: string): Promise<string> => {
 };
 
 export function activate(context: vscode.ExtensionContext) {
-  const disposable = vscode.commands.registerCommand('markdown-preview-enhanced.showPreview', async (uri?: vscode.Uri) => {
+  const disposable = vscode.commands.registerCommand('markdown-preview-right-click.showPreview', async (uri?: vscode.Uri) => {
     // ファイルエクスプローラーから右クリックで呼び出された場合
     let document: vscode.TextDocument;
     
