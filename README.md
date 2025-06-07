@@ -26,10 +26,22 @@ A VSCode extension that provides a side-by-side Markdown preview using Chrome's 
 
 ## Installation
 
+### Method 1: Install from VSIX file
+
+1. Download the VSIX file from [GitHub Releases](https://github.com/tomorrow56/markdown-preview-extension/releases)
+2. Open VS Code
+3. Go to Extensions view (Ctrl+Shift+X or Cmd+Shift+X)
+4. Click on the "..." menu in the top-right corner of the Extensions view
+5. Select "Install from VSIX..."
+6. Navigate to the downloaded VSIX file and select it
+7. Restart VS Code if prompted
+
+### Method 2: Build from source
+
 1. Clone this repository
 2. Run `npm install` to install dependencies
 3. Press F5 to open a new window with the extension loaded
-4. Open a Markdown file and use the "Open Preview" command
+4. Open a Markdown file and use the "Markdown: Open Preview" command
 
 ## Extension Settings
 
