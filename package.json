@@ -3,11 +3,27 @@
   "displayName": "Markdown Preview Enhanced",
   "description": "A VSCode extension that shows Markdown preview with Chrome's rendering engine",
   "version": "0.1.0",
-  "publisher": "your-publisher",
+  "publisher": "tomorrow56",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomorrow56/markdown-preview-extension.git"
+  },
+  "homepage": "https://github.com/tomorrow56/markdown-preview-extension",
+  "bugs": {
+    "url": "https://github.com/tomorrow56/markdown-preview-extension/issues"
+  },
+  "keywords": [
+    "markdown",
+    "preview",
+    "chrome",
+    "puppeteer"
+  ],
   "categories": [
+    "Formatters",
+    "Visualization",
     "Other"
   ],
   "activationEvents": [
